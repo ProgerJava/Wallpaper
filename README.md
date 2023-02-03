@@ -29,5 +29,4 @@ Application for setting wallpapers on your phone
 
 </div>
 <li>Retroafit library</li>
-<li>Currency Data API</li>
 <li>Picasso</li>
