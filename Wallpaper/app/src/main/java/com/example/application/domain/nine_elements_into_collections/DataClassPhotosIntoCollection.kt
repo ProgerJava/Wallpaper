@@ -1,0 +1,3 @@
+package com.example.application.domain.nine_elements_into_collections
+
+class DataClassPhotosIntoCollection : ArrayList<DataClassPhotosIntoCollectionItem>()
