@@ -6,9 +6,9 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 
 ////////////////////////////Функция выхода из приложения
+var backPressedTime : Long = 0
 fun ComponentActivity.onBackPressed (activity: ComponentActivity) {
-    var backPressedTime : Long = 0
-
+  
     if (backPressedTime + 2000 > System.currentTimeMillis()) {
         activity.finish()
     } else {
